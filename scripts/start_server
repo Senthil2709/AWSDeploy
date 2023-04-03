@@ -1,0 +1,15 @@
+#!/bin/bash
+cd /home/ec2-user
+sudo docker build -t sampleapp .
+
+sleep 30
+
+<<<<<<< HEAD
+sudo docker run -itd --name demoapp sampleapp
+=======
+sudo docker run -itd --name demoapp1 sampleapp
+>>>>>>> 3f1bb00db5f7f5dcecad447d04e2a6b882a853dc
+
+#sudo docker-compose up
+
+
